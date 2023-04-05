@@ -4,10 +4,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
+
 }
 
 html {
   scroll-behavior: smooth;
+
 }
 
 /* Global Styles */
@@ -16,65 +18,48 @@ h1 {
   font-size: 50px;
   line-height: 64px;
   color: #222;
+
 }
 
 h2 {
   font-size: 46px;
   line-height: 54px;
   color: #222;
+
 }
 
 h4 {
   font-size: 20px;
   color: #222;
+
 }
 
 h6 {
   font-weight: 700;
   font-size: 12px;
+
 }
 
 p {
   font-size: 16px;
   color: #465b52;
   margin: 15px 0 20px 0;
+
 }
 
 .section-p1 {
   padding: 40px 80px;
+
 }
 
 .section-m1 {
   margin: 40px 0;
-}
 
-button.normal{
-  font-size: 14px;
-  font-weight: 600;
-  padding: 15px 30px;
-  color: #000;
-  background-color: #fff;
-  border-radius: 4px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  transition: 0.2s;
-}
-
-button.white{
-  font-size: 13px;
-  font-weight: 600;
-  padding: 11px 18px;
-  color: #fff;
-  background-color: transparent;
-  cursor: pointer;
-  border: 1px solid #fff;
-  outline: none;
-  transition: 0.2s;
 }
 
 body {
   width: 100%;
+
 }
 
 /* header Start */
@@ -90,18 +75,21 @@ body {
   position: sticky;
   top: 0;
   left: 0;
+
 }
 
 #navbar{
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 #navbar li{
   list-style: none;
   padding: 0 20px;
   position: relative; 
+
 }
 
 #navbar li a{
@@ -116,6 +104,7 @@ body {
 #navbar li a:hover,
 #navbar li a.active{
   color: #088178;
+
 }
 
 #navbar li a.active::after,#navbar li a:hover::after{
@@ -126,6 +115,7 @@ body {
   position: absolute;
   bottom: -4px;
   left: 20px;
+
 }
 
 /* home Page */
@@ -140,13 +130,19 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+
 }
+
 #hero h4{
   padding-bottom: 15px;
+
 }
+
 #hero h1{
   color: #088178;
+
 }
+
 #hero button{
   background-image: url("img/button.png");
   background-color: transparent;
@@ -157,6 +153,7 @@ body {
   cursor: pointer;
   font-weight: 700;
   font-size: 15px; 
+
 }
 
 #feature{
@@ -164,6 +161,7 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+
 }
 
 #feature .Featured-box{
@@ -173,16 +171,19 @@ body {
   box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
   border: 1px solid #cce7d0;
   border-radius: 4px;
-  margin: 15px 0; 
+  margin: 15px 0;
+
 } 
 
  #feature .Featured-box:hover{
   box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+
 }
 
 #feature .Featured-box img{
   width: 100%;
   margin-bottom: 10px;
+
 }
 
 #feature .Featured-box h6{
@@ -192,26 +193,37 @@ body {
   border-radius: 4px;
   color: #088178;
   background-color: #fddde4;
+
 }
 
 #feature .Featured-box:nth-child(2) h6{
   background-color: #cdebbc;
+
 }
+
 #feature .Featured-box:nth-child(3) h6{
   background-color: #d1e8f2;
+
 }
+
 #feature .Featured-box:nth-child(4) h6{
   background-color: #cdd4f8;
+
 }
+
 #feature .Featured-box:nth-child(5) h6{
   background-color: #f6dbf6;
+
 }
+
 #feature .Featured-box:nth-child(6) h6{
   background-color: #fff2e5;
+
 }
 
 #product1{
   text-align: center;
+
 }
 
 #product1 .pro-container{
@@ -219,6 +231,7 @@ body {
   justify-content: space-between;
   padding-top: 20px;
   flex-wrap: wrap;
+
 }
 
 #product1 .pro{
@@ -232,42 +245,52 @@ body {
   margin: 15px 0;
   transition: 0.2s ease;
   position: relative;
+
 }
 
 #product1 .pro:hover{
   box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+
 }
 
 #product1 .pro img{
   width: 100%;
   border-radius: 20px;
+
 }
 
 #product1 .pro .des{
   text-align: start;
   padding: 10px 0;
+
 }
+
 #product1 .pro .des span{
   color: #606063;
   font-size: 12px;
+
 }
 
 #product1 .pro .des h5{
   padding-top: 7px;
   color: #1a1a1a;
   font-size: 14px;
+
 }
 
 #product1 .pro .des i{
   font-size: 12px;
   color: rgb(243, 181, 25);
+
 }
+
 
 #product1 .pro .des h4{
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
   color: #088178;
+
 }
 
 #product1 .pro .cart{
@@ -282,131 +305,171 @@ body {
   position: absolute;
   bottom: 20px;
   right: 10px;
+
 }
 
-#banner{
+
+
+/*--shop page--*/
+#page-header {
+    background-image: url("img/banner/b1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 14px;
+
+}
+
+#page-header h2,
+#page-header p{
+    color: #ffff;
+
+}
+
+
+#pagination{
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: #ffff;
+    font-weight: 6000;
+
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600 ;
+
+}
+
+/*---single product---*/
+#prodetails{
+    display: flex;
+
+}
+
+#prodetails  .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+
+}
+
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+
+}
+
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+    
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+
+}
+
+
+#prodetails .single-pro-details input{
+    width: 50%;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
+
+#prodetails .single-pro-details input:focus{
+    outline: none;
+
+}
+
+
+#prodetails .single-pro-details button{
+    background-color: #088178;
+    color: #ffff;
+
+}
+
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+
+}
+
+/*---about header---*/
+#page-header.about-header{
+  background-image: url("img/about/banner.png");
+
+}
+
+.about-head{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  background-image: url("img/banner/b2.jpg");
+}
+
+.about-head img{
+  width: 50%;
+  height: auto;
+
+}
+
+#about-head div{
+  padding-left: 10px; 
+}
+
+#about-app{
+   text-align: center;
+}
+
+#about-app  .video{
+   width: 70%;
+   height: 100%;
+   margin: 30px auto 0 auto;
+}
+
+#about-app  .video video{
   width: 100%;
-  height: 40vh;
-  background-size: cover;
-  background-position: center;
-}
+  height: 100%;
+  border-radius:20px ;
 
-#banner h4{
-  color: #ffffff;
-  font-size: 27px;
-}
 
-#banner h2{
-  color: #ffffff;
-  font-size: 42px;
-  padding: 10px 0;
-}
-
-#banner h2:hover{
-  color: #cdebbc;
-}
-
-#banner h2 span{
-  color: #ef3636;
-}
-
-#banner button:hover{
-  background: #088178;
-  color: #fff;
-}
-
-#sm-banner{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-#sm-banner .banner-box{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  background-image: url("img/banner/b17.jpg");
-  width: 580px;
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-  padding: 30px;
-}
-
-#sm-banner .banner-box2{
-  background-image: url("img/banner/b10.jpg");
-}
-
-#sm-banner h4{
-  color: #fff;
-  font-size: 20px;
-  font-weight: 300;
-}
-
-#sm-banner h2{
-  color: #fff;
-  font-size: 28px;
-  font-weight: 800;
-}
-
-#sm-banner span{
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-  padding-bottom: 15px;
-}
-
-#sm-banner .banner-box .white:hover{
-  background: #088178;
-  border: 1px solid #088178;
-}
-
-#banner3 {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 0 80px;
-}
-
-#banner3 .banner-box{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  background-image: url("img/banner/b7.jpg");
-  width: 30%;
-  height: 30vh;
-  background-size: cover;
-  background-position: center;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-#banner3 .banner-box2 {
-  background-image: url("img/banner/b4.jpg");
-}
-
-#banner3 .banner-box3 {
-  background-image: url("img/banner/b18.jpg");
-}
-
-#banner3 h2{
-  color: #fff;
-  font-weight: 900;
-  font-size: 16px;
-  font-style: italic;
-  
-}
-
-#banner3 h3{
-  color: #ec544e;
-  font-weight: 800;
-  font-size: 15px;
 }
